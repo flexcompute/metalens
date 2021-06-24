@@ -77,6 +77,8 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+.DS_Store
+
 # IPython
 profile_default/
 ipython_config.py
@@ -127,3 +129,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Custom
+gpu/solver/
+tmp/
+out/
+fdtd3d.json
+time_estimate.json
