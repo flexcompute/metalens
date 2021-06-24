@@ -9,7 +9,7 @@ This repo contains an example of using Tidy3D to simulate and optimize a large a
 
 ### Simulation Files
 
-- The jupyter notebook `Metalens_Simulate_Single.ipynb` runs the single simulation of a large area, 100 wavelength diameter metalens.
+- The jupyter notebook `Metalens_Simulate_Single.ipynb` runs the single simulation of a large area, 100 wavelength diameter metalens (with total dimensions of (100 x 100 x 46 wavelengths).
 
 - The python script `Metalens_Optimize.py` runs a brute force optimization of the metalens unit cells to improve focusing efficiency by 10%.
 
