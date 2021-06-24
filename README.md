@@ -1,7 +1,7 @@
 # metalens
 Simulation and optimization of dielectric metalens with Tidy3D.
 
-This repo contains the code and data for the paper `Simulation and Optimization of Large Area Metalenses`.
+This repo contains an example of using Tidy3D to simulate and optimize a large area metalens.
 
 ![alt text](https://github.com/flexcompute/metalens/blob/main/Metalens.png?raw=true)
 
@@ -9,11 +9,10 @@ This repo contains the code and data for the paper `Simulation and Optimization 
 
 ### Simulation Files
 
-- The jupyter notebook `Metalens_Simulate_Single.ipynb` runs the single simulation of the large area, 100 wavelength diameter metalens.
+- The jupyter notebook `Metalens_Simulate_Single.ipynb` runs the single simulation of a large area, 100 wavelength diameter metalens.
 
-- The python script `Metalens_Optimize.py` runs the brute force optimization.
+- The python script `Metalens_Optimize.py` runs a brute force optimization of the metalens unit cells to improve focusing efficiency by 10%.
 
-- Note that timings may vary between your results and the paper due to changes in the code over time.
 
 ### Results and Post Processing
 
@@ -23,6 +22,4 @@ This repo contains the code and data for the paper `Simulation and Optimization 
 
 ## Finally
 
-- If you find this example useful, please cite our paper.
-
-- If you want more information on signing up to use tidy3d for free, please see our [documentation](https://simulation.cloud/docs/html/index.html) or reach out to us directly!
+If you want more information on signing up to use tidy3d for free, please see our [documentation](https://simulation.cloud/docs/html/index.html) or reach out to us directly!
