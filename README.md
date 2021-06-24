@@ -3,6 +3,8 @@ Simulation and optimization of dielectric metalens with Tidy3D.
 
 This repo contains the code and data for the paper `Simulation and Optimization of Large Area Metalenses`.
 
+![alt text](https://github.com/flexcompute/metalens/blob/main/Metalens.png?raw=true)
+
 ## Contents
 
 ### Simulation Files
