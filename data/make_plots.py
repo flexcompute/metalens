@@ -188,8 +188,9 @@ plt.xlabel('x index')
 plt.ylabel('y index')
 plt.title('change in angle after optimization (rad)')
 
-vmax = np.max(np.abs(deltapoints))
-plt.colorbar(cm.ScalarMappable(norm=Normalize(-vmax, vmax), cmap="bwr"))
+max_angle_change = np.max(np.abs(deltapoints))
+print(f'max_angle_change = {max_angle_change:.3f} radians')
+# plt.colorbar(cm.ScalarMappable(norm=Normalize(-vmax, vmax), cmap="bwr"))
 plt.show()
 
 
