@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pylab as plt
 import matplotlib
+import matplotlib.cm as cm
+from matplotlib.colors import Normalize
 
 import tidy3d as td
 
@@ -184,8 +186,14 @@ plt.xticks(np.arange(21))
 plt.yticks(np.arange(21))
 plt.xlabel('x index')
 plt.ylabel('y index')
-plt.title('change in angle after optimization')
+plt.title('change in angle after optimization (rad)')
+
+vmax = np.max(np.abs(deltapoints))
+plt.colorbar(cm.ScalarMappable(norm=Normalize(-vmax, vmax), cmap="bwr"))
+plt.savefig('plot.png', dpi=300)
 plt.show()
+
+
 
 
 # N = 21
