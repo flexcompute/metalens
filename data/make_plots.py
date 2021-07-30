@@ -190,7 +190,6 @@ plt.title('change in angle after optimization (rad)')
 
 vmax = np.max(np.abs(deltapoints))
 plt.colorbar(cm.ScalarMappable(norm=Normalize(-vmax, vmax), cmap="bwr"))
-plt.savefig('plot.png', dpi=300)
 plt.show()
 
 
